@@ -23,6 +23,7 @@ if (process.argv.length > 2) {
         })
     );
 
+    //
     Promise.all(charactersName)
       .then((names) => console.log(names.join('\n')))
       .catch((e) => console.log(e));
