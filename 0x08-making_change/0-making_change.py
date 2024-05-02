@@ -10,7 +10,7 @@ def makeChange(coins, total):
         coins (list int): a list of the values of the coins in your possession
         total (int): the total.
 
-    Returns (int): 
+    Returns (int):
         0 If total is 0 or less ||
         -1 If total cannot be met by any number of coins you have ||
         fewest number of coins needed to meet total
